@@ -54,5 +54,5 @@ class Vector:
     def __str__(self):
         return f"Vector({self.values})"
     def __repr__(self):
-        rep = f'Vector(Values: {self.values}, Size: {self.size})'
-        return rep
+        repr = f'Vector(Values: {self.values}, Size: {self.size})'
+        return repr
